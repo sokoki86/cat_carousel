@@ -1,5 +1,5 @@
 
-function handleThumbnailClicks() {
+function handleThumbnail() {
     $('.thumbnail').on('click', function(event){
         const imgSrc = $(event.currentTarget).find('img').attr('src');
         const imgAlt = $(event.currentTarget).find('img').attr('alt');
@@ -8,4 +8,4 @@ function handleThumbnailClicks() {
     })
 }
   
-$(handleThumbnailClicks);
+$(handleThumbnail);
